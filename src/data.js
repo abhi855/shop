@@ -26,42 +26,26 @@ export const categories = [
   {
     id: 1,
     img: "https://images.pexels.com/photos/264726/pexels-photo-264726.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    title: "Electronics",
-    cat: "electronics",
+    title: "Seeds",
+    cat: "seeds",
   },
   {
     id: 2,
     img: "https://images.pexels.com/photos/1598507/pexels-photo-1598507.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    title: "Beauty",
-    cat: "beauty",
+    title: "Chemicals",
+    cat: "chemicals",
   },
   {
     id: 3,
     img: "https://images.pexels.com/photos/1666779/pexels-photo-1666779.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    title: "Groceries",
-    cat: "groceries",
+    title: "Mulching and Cocopit",
+    cat: "extra",
   },
 ];
 export const subcategories = {
-  electronics: ["Smartphone", "Laptops", "MotorCycle", "Lighting"],
-  beauty: [
-    "Fragrances",
-    "Skincare",
-    "Womens-Jewellery",
-    "Automotive",
-    "Sunglasses",
-  ],
-  groceries: [
-    "Daal",
-    "Tops",
-    "Womens-Dresses",
-    "Womens-Shoes",
-    "Mens-Shirts",
-    "Mens-Shoes",
-    "Womens-Watches",
-    "Womens-Bags",
-    "Mens-Watches",
-  ],
+  seeds: ["Summer", "Winter"],
+  chemicals: ["Insecticide", "Pesticide", "Herbicide", "Fungicide"],
+  extra: ["Mulching", "Cocopit"],
 };
 
 export const popularProducts = [
@@ -382,7 +366,7 @@ export const productsSecond = [
     subcategory: "smartphones",
     thumbnail: "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
     images: [
-      "https://i.dummyjson.com/data/products/1/1.jpg",
+      "/seeds/1.jpg",
       "https://i.dummyjson.com/data/products/1/2.jpg",
       "https://i.dummyjson.com/data/products/1/3.jpg",
       "https://i.dummyjson.com/data/products/1/4.jpg",
@@ -403,7 +387,7 @@ export const productsSecond = [
     subcategory: "smartphones",
     thumbnail: "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
     images: [
-      "https://i.dummyjson.com/data/products/2/1.jpg",
+      "/seeds/2.jpg",
       "https://i.dummyjson.com/data/products/2/2.jpg",
       "https://i.dummyjson.com/data/products/2/3.jpg",
       "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
@@ -422,7 +406,7 @@ export const productsSecond = [
     category: "electronics",
     subcategory: "smartphones",
     thumbnail: "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
-    images: ["https://i.dummyjson.com/data/products/3/1.jpg"],
+    images: ["/seeds/3.jpg"],
   },
   {
     id: 4,
@@ -437,7 +421,8 @@ export const productsSecond = [
     subcategory: "smartphones",
     thumbnail: "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
     images: [
-      "https://i.dummyjson.com/data/products/4/1.jpg",
+      "/seeds/4.jpg",
+
       "https://i.dummyjson.com/data/products/4/2.jpg",
       "https://i.dummyjson.com/data/products/4/3.jpg",
       "https://i.dummyjson.com/data/products/4/4.jpg",
@@ -458,7 +443,7 @@ export const productsSecond = [
     subcategory: "smartphones",
     thumbnail: "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
     images: [
-      "https://i.dummyjson.com/data/products/5/1.jpg",
+      "/seeds/5.jpg",
       "https://i.dummyjson.com/data/products/5/2.jpg",
       "https://i.dummyjson.com/data/products/5/3.jpg",
     ],
@@ -477,7 +462,7 @@ export const productsSecond = [
     category: "electronics",
     thumbnail: "https://i.dummyjson.com/data/products/6/thumbnail.png",
     images: [
-      "https://i.dummyjson.com/data/products/6/1.png",
+      "/seeds/6.jpg",
       "https://i.dummyjson.com/data/products/6/2.jpg",
       "https://i.dummyjson.com/data/products/6/3.png",
       "https://i.dummyjson.com/data/products/6/4.jpg",
@@ -497,7 +482,7 @@ export const productsSecond = [
     category: "electronics",
     thumbnail: "https://i.dummyjson.com/data/products/7/thumbnail.jpg",
     images: [
-      "https://i.dummyjson.com/data/products/7/1.jpg",
+      "/seeds/7.jpg",
       "https://i.dummyjson.com/data/products/7/2.jpg",
       "https://i.dummyjson.com/data/products/7/3.jpg",
       "https://i.dummyjson.com/data/products/7/thumbnail.jpg",
@@ -517,7 +502,7 @@ export const productsSecond = [
     category: "electronics",
     thumbnail: "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
     images: [
-      "https://i.dummyjson.com/data/products/8/1.jpg",
+      "/seeds/8.jpg",
       "https://i.dummyjson.com/data/products/8/2.jpg",
       "https://i.dummyjson.com/data/products/8/3.jpg",
       "https://i.dummyjson.com/data/products/8/4.jpg",
@@ -538,7 +523,7 @@ export const productsSecond = [
     category: "electronics",
     thumbnail: "https://i.dummyjson.com/data/products/9/thumbnail.jpg",
     images: [
-      "https://i.dummyjson.com/data/products/9/1.jpg",
+      "/seeds/9.jpg",
       "https://i.dummyjson.com/data/products/9/2.png",
       "https://i.dummyjson.com/data/products/9/3.png",
       "https://i.dummyjson.com/data/products/9/4.jpg",
@@ -559,7 +544,7 @@ export const productsSecond = [
     category: "electronics",
     thumbnail: "https://i.dummyjson.com/data/products/10/thumbnail.jpeg",
     images: [
-      "https://i.dummyjson.com/data/products/10/1.jpg",
+      "/seeds/10.jpg",
       "https://i.dummyjson.com/data/products/10/2.jpg",
       "https://i.dummyjson.com/data/products/10/3.jpg",
       "https://i.dummyjson.com/data/products/10/thumbnail.jpeg",
@@ -579,6 +564,7 @@ export const productsSecond = [
     category: "beauty",
     thumbnail: "https://i.dummyjson.com/data/products/11/thumbnail.jpg",
     images: [
+      "/seeds/11.jpg",
       "https://i.dummyjson.com/data/products/11/1.jpg",
       "https://i.dummyjson.com/data/products/11/2.jpg",
       "https://i.dummyjson.com/data/products/11/3.jpg",
@@ -598,6 +584,7 @@ export const productsSecond = [
     category: "beauty",
     thumbnail: "https://i.dummyjson.com/data/products/12/thumbnail.jpg",
     images: [
+      "/seeds/12.jpg",
       "https://i.dummyjson.com/data/products/12/1.jpg",
       "https://i.dummyjson.com/data/products/12/2.jpg",
       "https://i.dummyjson.com/data/products/12/3.png",
@@ -619,6 +606,7 @@ export const productsSecond = [
     category: "beauty",
     thumbnail: "https://i.dummyjson.com/data/products/13/thumbnail.webp",
     images: [
+      "/seeds/13.jpg",
       "https://i.dummyjson.com/data/products/13/1.jpg",
       "https://i.dummyjson.com/data/products/13/2.png",
       "https://i.dummyjson.com/data/products/13/3.jpg",
@@ -640,6 +628,7 @@ export const productsSecond = [
     category: "beauty",
     thumbnail: "https://i.dummyjson.com/data/products/14/thumbnail.jpg",
     images: [
+      "/seeds/14.jpg",
       "https://i.dummyjson.com/data/products/14/1.jpg",
       "https://i.dummyjson.com/data/products/14/2.jpg",
       "https://i.dummyjson.com/data/products/14/3.jpg",
@@ -660,6 +649,7 @@ export const productsSecond = [
     category: "beauty",
     thumbnail: "https://i.dummyjson.com/data/products/15/thumbnail.jpg",
     images: [
+      "/seeds/15.jpg",
       "https://i.dummyjson.com/data/products/15/1.jpg",
       "https://i.dummyjson.com/data/products/15/2.jpg",
       "https://i.dummyjson.com/data/products/15/3.jpg",
@@ -681,6 +671,7 @@ export const productsSecond = [
     category: "beauty",
     thumbnail: "https://i.dummyjson.com/data/products/16/thumbnail.jpg",
     images: [
+      "/seeds/16.jpg",
       "https://i.dummyjson.com/data/products/16/1.png",
       "https://i.dummyjson.com/data/products/16/2.webp",
       "https://i.dummyjson.com/data/products/16/3.jpg",
@@ -702,6 +693,7 @@ export const productsSecond = [
     category: "beauty",
     thumbnail: "https://i.dummyjson.com/data/products/17/thumbnail.jpg",
     images: [
+      "/seeds/17.jpg",
       "https://i.dummyjson.com/data/products/17/1.jpg",
       "https://i.dummyjson.com/data/products/17/2.jpg",
       "https://i.dummyjson.com/data/products/17/3.jpg",
@@ -722,6 +714,7 @@ export const productsSecond = [
     category: "beauty",
     thumbnail: "https://i.dummyjson.com/data/products/18/thumbnail.jpg",
     images: [
+      "/seeds/18.jpg",
       "https://i.dummyjson.com/data/products/18/1.jpg",
       "https://i.dummyjson.com/data/products/18/2.jpg",
       "https://i.dummyjson.com/data/products/18/3.jpg",
@@ -743,6 +736,7 @@ export const productsSecond = [
     category: "beauty",
     thumbnail: "https://i.dummyjson.com/data/products/19/thumbnail.jpg",
     images: [
+      "/seeds/19.jpg",
       "https://i.dummyjson.com/data/products/19/1.jpg",
       "https://i.dummyjson.com/data/products/19/2.jpg",
       "https://i.dummyjson.com/data/products/19/3.png",
@@ -763,6 +757,7 @@ export const productsSecond = [
     category: "beauty",
     thumbnail: "https://i.dummyjson.com/data/products/20/thumbnail.jpg",
     images: [
+      "/seeds/20.jpg",
       "https://i.dummyjson.com/data/products/20/1.jpg",
       "https://i.dummyjson.com/data/products/20/2.jpg",
       "https://i.dummyjson.com/data/products/20/3.jpg",
@@ -783,6 +778,7 @@ export const productsSecond = [
     category: "groceries",
     thumbnail: "https://i.dummyjson.com/data/products/21/thumbnail.png",
     images: [
+      "/seeds/21.jpg",
       "https://i.dummyjson.com/data/products/21/1.png",
       "https://i.dummyjson.com/data/products/21/2.jpg",
       "https://i.dummyjson.com/data/products/21/3.jpg",
@@ -801,6 +797,7 @@ export const productsSecond = [
     category: "groceries",
     thumbnail: "https://i.dummyjson.com/data/products/22/thumbnail.jpg",
     images: [
+      "/seeds/22.jpg",
       "https://i.dummyjson.com/data/products/22/1.jpg",
       "https://i.dummyjson.com/data/products/22/2.jpg",
       "https://i.dummyjson.com/data/products/22/3.jpg",
@@ -820,6 +817,7 @@ export const productsSecond = [
     category: "groceries",
     thumbnail: "https://i.dummyjson.com/data/products/23/thumbnail.jpg",
     images: [
+      "/seeds/23.jpg",
       "https://i.dummyjson.com/data/products/23/1.jpg",
       "https://i.dummyjson.com/data/products/23/2.jpg",
       "https://i.dummyjson.com/data/products/23/3.jpg",
@@ -841,6 +839,7 @@ export const productsSecond = [
     category: "groceries",
     thumbnail: "https://i.dummyjson.com/data/products/24/thumbnail.jpg",
     images: [
+      "/seeds/24.jpg",
       "https://i.dummyjson.com/data/products/24/1.jpg",
       "https://i.dummyjson.com/data/products/24/2.jpg",
       "https://i.dummyjson.com/data/products/24/3.jpg",
@@ -861,6 +860,7 @@ export const productsSecond = [
     category: "groceries",
     thumbnail: "https://i.dummyjson.com/data/products/25/thumbnail.jpg",
     images: [
+      "/seeds/25.jpg",
       "https://i.dummyjson.com/data/products/25/1.png",
       "https://i.dummyjson.com/data/products/25/2.jpg",
       "https://i.dummyjson.com/data/products/25/3.png",
@@ -882,6 +882,7 @@ export const productsSecond = [
     category: "groceries",
     thumbnail: "https://i.dummyjson.com/data/products/26/thumbnail.jpg",
     images: [
+      "/seeds/26.jpg",
       "https://i.dummyjson.com/data/products/26/1.jpg",
       "https://i.dummyjson.com/data/products/26/2.jpg",
       "https://i.dummyjson.com/data/products/26/3.jpg",
@@ -904,6 +905,7 @@ export const productsSecond = [
     category: "groceries",
     thumbnail: "https://i.dummyjson.com/data/products/27/thumbnail.webp",
     images: [
+      "/seeds/27.jpg",
       "https://i.dummyjson.com/data/products/27/1.jpg",
       "https://i.dummyjson.com/data/products/27/2.jpg",
       "https://i.dummyjson.com/data/products/27/3.jpg",
@@ -925,6 +927,7 @@ export const productsSecond = [
     category: "groceries",
     thumbnail: "https://i.dummyjson.com/data/products/28/thumbnail.jpg",
     images: [
+      "/seeds/28.jpg",
       "https://i.dummyjson.com/data/products/28/1.jpg",
       "https://i.dummyjson.com/data/products/28/2.jpg",
       "https://i.dummyjson.com/data/products/28/3.png",
@@ -946,6 +949,7 @@ export const productsSecond = [
     category: "groceries",
     thumbnail: "https://i.dummyjson.com/data/products/29/thumbnail.webp",
     images: [
+      "/seeds/29.jpg",
       "https://i.dummyjson.com/data/products/29/1.jpg",
       "https://i.dummyjson.com/data/products/29/2.jpg",
       "https://i.dummyjson.com/data/products/29/3.webp",
@@ -967,6 +971,7 @@ export const productsSecond = [
     category: "groceries",
     thumbnail: "https://i.dummyjson.com/data/products/30/thumbnail.jpg",
     images: [
+      "/seeds/30.jpg",
       "https://i.dummyjson.com/data/products/30/1.jpg",
       "https://i.dummyjson.com/data/products/30/2.jpg",
       "https://i.dummyjson.com/data/products/30/3.jpg",
@@ -987,7 +992,7 @@ export const productsSecond = [
     category: "electronics",
     thumbnail: "https://i.dummyjson.com/data/products/31/thumbnail.jpg",
     images: [
-      "https://i.dummyjson.com/data/products/31/1.jpg",
+      "/seeds/31.jpg",
       "https://i.dummyjson.com/data/products/31/2.jpg",
       "https://i.dummyjson.com/data/products/31/3.jpg",
       "https://i.dummyjson.com/data/products/31/4.jpg",
@@ -1008,6 +1013,7 @@ export const productsSecond = [
     category: "electronics",
     thumbnail: "https://i.dummyjson.com/data/products/32/thumbnail.jpg",
     images: [
+      "/seeds/32.jpg",
       "https://i.dummyjson.com/data/products/32/1.jpg",
       "https://i.dummyjson.com/data/products/32/2.jpg",
       "https://i.dummyjson.com/data/products/32/3.jpg",
@@ -1028,6 +1034,7 @@ export const productsSecond = [
     category: "electronics",
     thumbnail: "https://i.dummyjson.com/data/products/33/thumbnail.jpg",
     images: [
+      "/seeds/33.jpg",
       "https://i.dummyjson.com/data/products/33/1.jpg",
       "https://i.dummyjson.com/data/products/33/2.jpg",
       "https://i.dummyjson.com/data/products/33/3.jpg",
@@ -1049,6 +1056,7 @@ export const productsSecond = [
     category: "electronics",
     thumbnail: "https://i.dummyjson.com/data/products/34/thumbnail.jpg",
     images: [
+      "/seeds/34.jpg",
       "https://i.dummyjson.com/data/products/34/1.jpg",
       "https://i.dummyjson.com/data/products/34/2.jpg",
       "https://i.dummyjson.com/data/products/34/3.jpg",
@@ -1070,6 +1078,7 @@ export const productsSecond = [
     category: "electronics",
     thumbnail: "https://i.dummyjson.com/data/products/35/thumbnail.jpg",
     images: [
+      "/seeds/35.jpg",
       "https://i.dummyjson.com/data/products/35/1.jpg",
       "https://i.dummyjson.com/data/products/35/2.jpg",
       "https://i.dummyjson.com/data/products/35/3.jpg",
@@ -1091,6 +1100,7 @@ export const productsSecond = [
     category: "groceries",
     thumbnail: "https://i.dummyjson.com/data/products/36/thumbnail.jpg",
     images: [
+      "/seeds/36.jpg",
       "https://i.dummyjson.com/data/products/36/1.jpg",
       "https://i.dummyjson.com/data/products/36/2.webp",
       "https://i.dummyjson.com/data/products/36/3.webp",
@@ -1112,6 +1122,7 @@ export const productsSecond = [
     category: "groceries",
     thumbnail: "https://i.dummyjson.com/data/products/37/thumbnail.jpg",
     images: [
+      "/seeds/37.jpg",
       "https://i.dummyjson.com/data/products/37/1.jpg",
       "https://i.dummyjson.com/data/products/37/2.jpg",
       "https://i.dummyjson.com/data/products/37/3.jpg",
@@ -1132,6 +1143,7 @@ export const productsSecond = [
     category: "groceries",
     thumbnail: "https://i.dummyjson.com/data/products/38/thumbnail.jpg",
     images: [
+      "/seeds/38.jpg",
       "https://i.dummyjson.com/data/products/38/1.png",
       "https://i.dummyjson.com/data/products/38/2.jpg",
       "https://i.dummyjson.com/data/products/38/3.jpg",
@@ -1152,6 +1164,7 @@ export const productsSecond = [
     category: "groceries",
     thumbnail: "https://i.dummyjson.com/data/products/39/thumbnail.jpg",
     images: [
+      "/seeds/39.jpg",
       "https://i.dummyjson.com/data/products/39/1.jpg",
       "https://i.dummyjson.com/data/products/39/2.jpg",
       "https://i.dummyjson.com/data/products/39/3.jpg",
@@ -1173,6 +1186,7 @@ export const productsSecond = [
     category: "groceries",
     thumbnail: "https://i.dummyjson.com/data/products/40/thumbnail.jpg",
     images: [
+      "/seeds/40.jpg",
       "https://i.dummyjson.com/data/products/40/1.jpg",
       "https://i.dummyjson.com/data/products/40/2.jpg",
     ],
@@ -1190,6 +1204,7 @@ export const productsSecond = [
     category: "groceries",
     thumbnail: "https://i.dummyjson.com/data/products/41/thumbnail.webp",
     images: [
+      "/seeds/41.jpg",
       "https://i.dummyjson.com/data/products/41/1.jpg",
       "https://i.dummyjson.com/data/products/41/2.webp",
       "https://i.dummyjson.com/data/products/41/3.jpg",
@@ -1211,6 +1226,7 @@ export const productsSecond = [
     category: "groceries",
     thumbnail: "https://i.dummyjson.com/data/products/42/thumbnail.jpg",
     images: [
+      "/seeds/42.jpg",
       "https://i.dummyjson.com/data/products/42/1.png",
       "https://i.dummyjson.com/data/products/42/2.png",
       "https://i.dummyjson.com/data/products/42/3.png",
@@ -1232,6 +1248,7 @@ export const productsSecond = [
     category: "groceries",
     thumbnail: "https://i.dummyjson.com/data/products/43/thumbnail.jpg",
     images: [
+      "/seeds/43.jpg",
       "https://i.dummyjson.com/data/products/43/1.jpg",
       "https://i.dummyjson.com/data/products/43/2.jpg",
       "https://i.dummyjson.com/data/products/43/3.jpg",
@@ -1253,6 +1270,7 @@ export const productsSecond = [
     category: "groceries",
     thumbnail: "https://i.dummyjson.com/data/products/44/thumbnail.jpg",
     images: [
+      "/seeds/44.jpg",
       "https://i.dummyjson.com/data/products/44/1.jpg",
       "https://i.dummyjson.com/data/products/44/2.jpg",
       "https://i.dummyjson.com/data/products/44/3.jpg",
@@ -1274,6 +1292,7 @@ export const productsSecond = [
     category: "groceries",
     thumbnail: "https://i.dummyjson.com/data/products/45/thumbnail.jpg",
     images: [
+      "/seeds/45.jpg",
       "https://i.dummyjson.com/data/products/45/1.jpg",
       "https://i.dummyjson.com/data/products/45/2.webp",
       "https://i.dummyjson.com/data/products/45/3.jpg",
@@ -1295,6 +1314,7 @@ export const productsSecond = [
     category: "groceries",
     thumbnail: "https://i.dummyjson.com/data/products/46/thumbnail.jpg",
     images: [
+      "/seeds/46.jpg",
       "https://i.dummyjson.com/data/products/46/1.webp",
       "https://i.dummyjson.com/data/products/46/2.jpg",
       "https://i.dummyjson.com/data/products/46/3.jpg",
@@ -1316,6 +1336,7 @@ export const productsSecond = [
     category: "groceries",
     thumbnail: "https://i.dummyjson.com/data/products/47/thumbnail.jpeg",
     images: [
+      "/seeds/47.jpg",
       "https://i.dummyjson.com/data/products/47/1.jpg",
       "https://i.dummyjson.com/data/products/47/2.jpg",
       "https://i.dummyjson.com/data/products/47/3.jpg",
@@ -1336,6 +1357,7 @@ export const productsSecond = [
     category: "groceries",
     thumbnail: "https://i.dummyjson.com/data/products/48/thumbnail.jpg",
     images: [
+      "/seeds/48.jpg",
       "https://i.dummyjson.com/data/products/48/1.jpg",
       "https://i.dummyjson.com/data/products/48/2.jpg",
       "https://i.dummyjson.com/data/products/48/3.jpg",
@@ -1357,6 +1379,7 @@ export const productsSecond = [
     category: "groceries",
     thumbnail: "https://i.dummyjson.com/data/products/49/thumbnail.jpg",
     images: [
+      "/seeds/49.jpg",
       "https://i.dummyjson.com/data/products/49/1.jpg",
       "https://i.dummyjson.com/data/products/49/2.jpg",
       "https://i.dummyjson.com/data/products/49/3.webp",
@@ -1377,6 +1400,7 @@ export const productsSecond = [
     category: "groceries",
     thumbnail: "https://i.dummyjson.com/data/products/50/thumbnail.jpg",
     images: [
+      "/seeds/50.jpg",
       "https://i.dummyjson.com/data/products/50/1.jpeg",
       "https://i.dummyjson.com/data/products/50/2.jpg",
       "https://i.dummyjson.com/data/products/50/3.jpg",
@@ -1396,6 +1420,7 @@ export const productsSecond = [
     category: "groceries",
     thumbnail: "https://i.dummyjson.com/data/products/51/thumbnail.jpg",
     images: [
+      "/seeds/51.jpg",
       "https://i.dummyjson.com/data/products/51/1.png",
       "https://i.dummyjson.com/data/products/51/2.jpg",
       "https://i.dummyjson.com/data/products/51/3.jpg",
@@ -1416,6 +1441,8 @@ export const productsSecond = [
     category: "groceries",
     thumbnail: "https://i.dummyjson.com/data/products/52/thumbnail.jpg",
     images: [
+      "/seeds/52.jpg",
+
       "https://i.dummyjson.com/data/products/52/1.png",
       "https://i.dummyjson.com/data/products/52/2.png",
       "https://i.dummyjson.com/data/products/52/3.jpg",

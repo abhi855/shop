@@ -33,7 +33,7 @@ const Container = styled.div`
     z-index: 2;
   } */
   /* cursor: pointer; */
-  ${mobile({ minWidth: "180px", height: "250px" })}
+  ${mobile({ width: "47vw", height: "250px" })}
 `;
 
 const Image = styled.img`
@@ -41,6 +41,7 @@ const Image = styled.img`
   height: 75%;
   width: 244px;
   margin: 3px;
+  ${mobile({ width: "45.5vw" })}
 `;
 
 const RsTag = styled.h3`
@@ -60,11 +61,11 @@ const Company = styled.h6`
 const ProductItem = ({ item }) => {
   return (
     <Container>
-      <Image src={item.images[0]} />
+      <Image src={item.img} alt="Image Not avavilable" />
       <Info>
         <RsTag>from Rs = {item.price}</RsTag>
         <Title>{item.title}</Title>
-        <Company>{item.brand}</Company>
+        <Company>{item.brand ? "item.brand" : "No brand"}</Company>
       </Info>
       {/* <Info>
         <Icon>

@@ -1,8 +1,8 @@
-import React from "react"
-import styled from "styled-components"
-import { categories } from "../data"
-import CategoriesItem from "./CategoriesItem"
-import { mobile } from "../responsive"
+import React from "react";
+import styled from "styled-components";
+import { categories } from "../data";
+import CategoriesItem from "./CategoriesItem";
+import { mobile } from "../responsive";
 
 const Container = styled.div`
   display: flex;
@@ -10,7 +10,7 @@ const Container = styled.div`
   margin-top: 5px;
   justify-content: space-between;
   ${mobile({ padding: "0px", flexDirection: "column" })}
-`
+`;
 const Categories = () => {
   return (
     <Container>
@@ -18,7 +18,7 @@ const Categories = () => {
         <CategoriesItem item={item} />
       ))}
     </Container>
-  )
-}
+  );
+};
 
-export default Categories
+export default Categories;

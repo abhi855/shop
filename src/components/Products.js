@@ -20,18 +20,22 @@ const Products = ({ category, filters, sort }) => {
   const [filteredProducts, setFilteredProducts] = useState([]);
 
   useEffect(() => {
+    console.log(process.env.REACT_APP_TEST);
     const getProducts = async () => {
-      // try {
-      //   const res = await axios.get(
-      //     category
-      //       ? `http://localhost:5000/api/products?category=${category}`
-      //       : "http://localhost:5000/api/products"
-      //   );
-      //   setProducts(res.data);
-      // } catch (e) {}
-      setProducts(() =>
-        productsSecond.filter((item) => item.category === category)
-      );
+      try {
+        const res = await axios.get(
+          category
+            ? `http://43.205.207.87/api/products?category=${category}`
+            : `http://43.205.207.87/api/products`
+        );
+        console.log(res.data);
+        setProducts(res.data);
+      } catch (e) {
+        console.log(e);
+      }
+      // setProducts(() =>
+      //   productsSecond.filter((item) => item.category === category)
+      // );
     };
     getProducts();
   }, [category]);
