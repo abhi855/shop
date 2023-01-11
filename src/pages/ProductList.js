@@ -62,28 +62,8 @@ const ProductList = () => {
             {subcategories[cat].map((item) => (
               <Option value={item}>{item}</Option>
             ))}
-            {/* <Option>smartphones</Option>
-            <Option>laptop</Option>
-            <Option>motorcycle</Option>
-            <Option>lighting</Option> */}
           </Select>
-          {/* <Select name="size" onChange={handleFilters}>
-            <Option disabled>Size</Option>
-            <Option>S</Option>
-            <Option>M</Option>
-            <Option>L</Option>
-            <Option>XL</Option>
-            <Option>XXL</Option>
-          </Select> */}
         </Filter>
-        {/* <Filter>
-          <FilterText>Sort Products:</FilterText>
-          <Select onChange={handleSort}>
-            <Option value="new">Newest</Option>
-            <Option value="asc">Price(asc)</Option>
-            <Option value="desc">Price(desc)</Option>
-          </Select>
-        </Filter> */}
       </FilterContainer>
       <Products category={cat} filters={filters} sort={sort} />
       <NewsLetter />

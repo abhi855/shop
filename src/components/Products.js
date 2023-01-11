@@ -33,9 +33,6 @@ const Products = ({ category, filters, sort }) => {
       } catch (e) {
         console.log(e);
       }
-      // setProducts(() =>
-      //   productsSecond.filter((item) => item.category === category)
-      // );
     };
     getProducts();
   }, [category]);

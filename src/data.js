@@ -39,13 +39,13 @@ export const categories = [
     id: 3,
     img: "https://images.pexels.com/photos/1666779/pexels-photo-1666779.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     title: "Mulching and Cocopit",
-    cat: "extra",
+    cat: "extras",
   },
 ];
 export const subcategories = {
   seeds: ["Summer", "Winter"],
   chemicals: ["Insecticide", "Pesticide", "Herbicide", "Fungicide"],
-  extra: ["Mulching", "Cocopit"],
+  extras: ["Mulching", "Cocopit"],
 };
 
 export const popularProducts = [

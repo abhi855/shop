@@ -5,6 +5,7 @@ import {
 } from "@material-ui/icons";
 import React from "react";
 import styled from "styled-components";
+import { imageLink, productsSecond } from "../data";
 import { mobile } from "../responsive";
 
 const Info = styled.div`
@@ -35,12 +36,18 @@ const Container = styled.div`
   /* cursor: pointer; */
   ${mobile({ width: "47vw", height: "250px" })}
 `;
-
+const ImageContainer = styled.div`
+  height: 75%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+`;
 const Image = styled.img`
   /* padding: 2px 0px; */
-  height: 75%;
-  width: 244px;
+  height: 100%;
+  /* width: 244px; */
   margin: 3px;
+  object-fit: cover;
   ${mobile({ width: "45.5vw" })}
 `;
 
@@ -61,7 +68,19 @@ const Company = styled.h6`
 const ProductItem = ({ item }) => {
   return (
     <Container>
-      <Image src={item.img} alt="Image Not avavilable" />
+      <ImageContainer>
+        <Image
+          src={`http://43.205.207.87/${item.thumb}`}
+          // src={`https://firebasestorage.googleapis.com/v0/b/shop-6dc83.appspot.com/o/${
+          //   Math.round(Math.random() * 100) % 52
+          // }.jpg?alt=media`}
+          // src={
+          //   "http://localhost:3000/shop/" +
+          //   productsSecond[Math.round(Math.random() * 100) % 52].images[0]
+          // }
+          alt="Image Not avavilable"
+        />
+      </ImageContainer>
       <Info>
         <RsTag>from Rs = {item.price}</RsTag>
         <Title>{item.title}</Title>
