@@ -17,29 +17,27 @@ const Info = styled.div`
 `;
 const Container = styled.div`
   width: 250px;
-  background-color: #f4ead5;
+  border: 1px solid gray;
   height: 300px;
   margin: 5px;
   align-items: center;
   justify-content: center;
-  /* display: flex;
+  z-index: 4;
+  box-shadow: 0 0 0 3px #ccc /* display: flex;
   flex-direction: column; */
-
-  /* transition: all 0.5s ease; */
-  /* &:hover ${Info} {
+    /* transition: all 0.5s ease; */ /* &:hover ${Info} {
     opacity: 1;
   }
   &:hover {
     transform: scale(1.05);
     z-index: 2;
-  } */
-  /* cursor: pointer; */
-  ${mobile({ width: "47vw", height: "250px" })}
+  } */ /* cursor: pointer; */ ${mobile({ width: "47vw", height: "250px" })};
 `;
 const ImageContainer = styled.div`
   height: 75%;
   justify-content: center;
   display: flex;
+  padding: 2px;
   align-items: center;
 `;
 const Image = styled.img`
@@ -71,13 +69,6 @@ const ProductItem = ({ item }) => {
       <ImageContainer>
         <Image
           src={`http://43.205.207.87/${item.thumb}`}
-          // src={`https://firebasestorage.googleapis.com/v0/b/shop-6dc83.appspot.com/o/${
-          //   Math.round(Math.random() * 100) % 52
-          // }.jpg?alt=media`}
-          // src={
-          //   "http://localhost:3000/shop/" +
-          //   productsSecond[Math.round(Math.random() * 100) % 52].images[0]
-          // }
           alt="Image Not avavilable"
         />
       </ImageContainer>
@@ -86,17 +77,6 @@ const ProductItem = ({ item }) => {
         <Title>{item.title}</Title>
         <Company>{item.brand ? "item.brand" : "No brand"}</Company>
       </Info>
-      {/* <Info>
-        <Icon>
-          <ShoppingCartOutlined />
-        </Icon>
-        <Icon>
-          <SearchOutlined />
-        </Icon>
-        <Icon>
-          <FavoriteBorderOutlined />
-        </Icon>
-      </Info> */}
     </Container>
   );
 };

@@ -11,7 +11,6 @@ const Container = styled.div`
   padding: 10px;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: #eeeeee;
   ${mobile({ padding: "5px 0px", backgroundColor: "#fff0e6" })}
 `;
 

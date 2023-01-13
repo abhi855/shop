@@ -58,7 +58,9 @@ const ProductList = () => {
         <Filter>
           <FilterText>Filter Products:</FilterText>
           <Select name="subcategory" onChange={handleFilters}>
-            <Option disabled>Color</Option>
+            <Option disabled selected>
+              Sub Category
+            </Option>
             {subcategories[cat].map((item) => (
               <Option value={item}>{item}</Option>
             ))}
