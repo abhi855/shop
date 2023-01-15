@@ -19,21 +19,22 @@ const Container = styled.div`
   width: 250px;
   border: 1px solid gray;
   border-radius: 10px;
-  box-shadow: 20px 20px 30px grey;
+  box-shadow: 8px 8px 30px grey;
   height: 300px;
   margin: 5px;
   align-items: center;
   justify-content: center;
   z-index: 4;
-  box-shadow: 0 0 0 3px #ccc /* display: flex;
+  /* display: flex;
   flex-direction: column; */
-    /* transition: all 0.5s ease; */ /* &:hover ${Info} {
+  /* transition: all 0.5s ease; */ /* &:hover ${Info} {
     opacity: 1;
   }
   &:hover {
     transform: scale(1.05);
     z-index: 2;
-  } */ /* cursor: pointer; */ ${mobile({ width: "47vw", height: "250px" })};
+  } */ /* cursor: pointer; */
+  ${mobile({ width: "47vw", height: "250px" })};
 `;
 const ImageContainer = styled.div`
   height: 75%;
@@ -62,8 +63,8 @@ const Title = styled.h5`
   font-family: Verdana, sans-serif;
 `;
 const Company = styled.h6`
-  color : #23a1d1;
-  padding : 2px;
+  color: #23a1d1;
+  padding: 2px;
   align-self: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   opacity: 0.8;

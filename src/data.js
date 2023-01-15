@@ -25,19 +25,19 @@ export const SliderItems = [
 export const categories = [
   {
     id: 1,
-    img: "https://images.pexels.com/photos/264726/pexels-photo-264726.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    img: "/assets/seeds.jpg",
     title: "Seeds",
     cat: "seeds",
   },
   {
     id: 2,
-    img: "https://images.pexels.com/photos/1598507/pexels-photo-1598507.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    img: "/assets/chemicals.jpg",
     title: "Chemicals",
     cat: "chemicals",
   },
   {
     id: 3,
-    img: "https://images.pexels.com/photos/1666779/pexels-photo-1666779.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    img: "/assets/mulching.jpg",
     title: "Mulching and Cocopit",
     cat: "extras",
   },

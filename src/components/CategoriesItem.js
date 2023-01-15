@@ -46,7 +46,7 @@ const CategoriesItem = ({ item }) => {
           state: { category: item.title },
         }}
       >
-        <Image src={item.img} />
+        <Image src={process.env.PUBLIC_URL + item.img} />
         <Info>
           <Title>{item.title}</Title>
           <Button>Shop Now</Button>
