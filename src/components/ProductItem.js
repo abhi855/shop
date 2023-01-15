@@ -18,6 +18,8 @@ const Info = styled.div`
 const Container = styled.div`
   width: 250px;
   border: 1px solid gray;
+  border-radius: 10px;
+  box-shadow: 20px 20px 30px grey;
   height: 300px;
   margin: 5px;
   align-items: center;
@@ -37,7 +39,7 @@ const ImageContainer = styled.div`
   height: 75%;
   justify-content: center;
   display: flex;
-  padding: 2px;
+  /*padding: 2px;*/
   align-items: center;
 `;
 const Image = styled.img`
@@ -50,16 +52,19 @@ const Image = styled.img`
 `;
 
 const RsTag = styled.h3`
-  align-self: start;
+  align-self: center;
   font-family: "Gudea", sans-serif;
-  color: #439a97;
+  color: black;
 `;
 const Title = styled.h5`
-  align-self: start;
+  color: #23a1d1;
+  align-self: center;
   font-family: Verdana, sans-serif;
 `;
 const Company = styled.h6`
-  align-self: start;
+  color : #23a1d1;
+  padding : 2px;
+  align-self: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   opacity: 0.8;
 `;
@@ -73,9 +78,9 @@ const ProductItem = ({ item }) => {
         />
       </ImageContainer>
       <Info>
-        <RsTag>from Rs = {item.price}</RsTag>
         <Title>{item.title}</Title>
         <Company>{item.brand ? "item.brand" : "No brand"}</Company>
+        <RsTag>&#8377; {item.price}</RsTag>
       </Info>
     </Container>
   );
