@@ -1,7 +1,6 @@
 {
   "name": "shopping",
   "version": "0.1.0",
-  "homepage": "https://abhi855.github.io/shop",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.3",
